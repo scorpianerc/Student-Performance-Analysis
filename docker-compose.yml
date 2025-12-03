@@ -1,0 +1,46 @@
+
+# Versi docker-compose
+version: '3.8'
+services:
+  minio:
+    image: minio/minio
+    container_name: minio
+    environment:
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: minio123
+    command: server /data --console-address ":9001"
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio_data:/data
+
+  mlflow:
+    build: .
+    container_name: mlflow
+    environment:
+      MLFLOW_TRACKING_URI: file:///app/mlruns
+    ports:
+      - "5000:5000"
+    volumes:
+      - mlflow_data:/app/mlruns
+    command: mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri file:///app/mlruns --default-artifact-root file:///app/mlruns
+    depends_on:
+      - minio
+
+  streamlit:
+    build: .
+    container_name: streamlit
+    environment:
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+    ports:
+      - "8501:8501"
+    volumes:
+      - mlflow_data:/app/mlruns
+    command: streamlit run src/dashboard.py --server.enableCORS=false --server.enableXsrfProtection=false
+    depends_on:
+      - mlflow
+
+volumes:
+  minio_data:
+  mlflow_data:

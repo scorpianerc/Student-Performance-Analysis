@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOPS/Student%20Analysis%20DVC/mlruns/0/36faa536f06e42ad9bdc6e14d535283f/artifacts
+end_time: 1764412395546
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 36faa536f06e42ad9bdc6e14d535283f
+run_name: fun-hawk-741
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764412395363
+status: 4
+tags: []
+user_id: INFINIX

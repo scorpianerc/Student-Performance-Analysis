@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOPS/Student%20Analysis%20DVC/mlruns/0/973effd598ad4217822bb6a62b6f3ffd/artifacts
+end_time: 1764412893260
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 973effd598ad4217822bb6a62b6f3ffd
+run_name: judicious-shrimp-36
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764412876374
+status: 3
+tags: []
+user_id: INFINIX

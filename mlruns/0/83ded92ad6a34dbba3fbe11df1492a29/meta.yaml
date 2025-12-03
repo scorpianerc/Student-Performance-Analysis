@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOPS/Student%20Analysis%20DVC/mlruns/0/83ded92ad6a34dbba3fbe11df1492a29/artifacts
+end_time: 1764412926803
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 83ded92ad6a34dbba3fbe11df1492a29
+run_name: unleashed-doe-461
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764412916911
+status: 3
+tags: []
+user_id: INFINIX

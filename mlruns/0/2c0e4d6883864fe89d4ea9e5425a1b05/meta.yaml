@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOPS/Student%20Analysis%20DVC/mlruns/0/2c0e4d6883864fe89d4ea9e5425a1b05/artifacts
+end_time: 1764412720198
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2c0e4d6883864fe89d4ea9e5425a1b05
+run_name: smiling-wren-888
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764412720087
+status: 4
+tags: []
+user_id: INFINIX

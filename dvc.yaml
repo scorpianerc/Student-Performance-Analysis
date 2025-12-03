@@ -1,0 +1,23 @@
+stages:
+  prepare:
+    cmd: python src/prepare.py
+    deps:
+    - data/student_performance_analysis.csv
+    - src/prepare.py
+    outs:
+    - data/prepared.csv
+  train:
+    cmd: python src/train.py
+    deps:
+    - data/prepared.csv
+    - src/train.py
+    outs:
+    - data/model.pkl
+  eval:
+    cmd: python src/eval.py
+    deps:
+    - data/model.pkl
+    - data/prepared.csv
+    - src/eval.py
+    outs:
+    - data/metrics.json

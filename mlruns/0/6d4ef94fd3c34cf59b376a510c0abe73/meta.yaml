@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOPS/Student%20Analysis%20DVC/mlruns/0/6d4ef94fd3c34cf59b376a510c0abe73/artifacts
+end_time: 1764412784277
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6d4ef94fd3c34cf59b376a510c0abe73
+run_name: honorable-wren-973
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764412784161
+status: 4
+tags: []
+user_id: INFINIX

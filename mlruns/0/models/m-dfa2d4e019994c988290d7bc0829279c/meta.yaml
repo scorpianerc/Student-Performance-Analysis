@@ -1,0 +1,10 @@
+artifact_location: file:///D:/MLOPS/Student%20Analysis%20DVC/mlruns/0/models/m-dfa2d4e019994c988290d7bc0829279c/artifacts
+creation_timestamp: 1764412917205
+experiment_id: '0'
+last_updated_timestamp: 1764412926765
+model_id: m-dfa2d4e019994c988290d7bc0829279c
+model_type: null
+name: model
+source_run_id: 83ded92ad6a34dbba3fbe11df1492a29
+status: 2
+status_message: null

@@ -1,0 +1,11 @@
+# Core ML & MLOps
+mlflow
+scikit-learn
+pandas
+
+# DVC & MinIO
+boto3
+dvc[s3]
+
+# Dashboard
+streamlit
