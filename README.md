@@ -112,8 +112,5 @@ pip install -r requirements.txt
 git push origin main
 ```
 
-## 📝 Lisensi
-MIT
-
 ## 👥 Kontributor
 - Proyek MLOps untuk analisis performa siswa
